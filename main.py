@@ -46,6 +46,9 @@ def home():
     if request.method == 'POST':
         user_query = request.form['user_query']
         response = ask_ai(user_query)
+        with open('log.txt', 'a') as f:
+            f.writelines(user_query + '\n' + response + '\n' + '\n')
+            f.close()
         session['messages'].append({'user_query': user_query, 'response': response})
         session.modified = True  # Garante que a sessão seja salva após a modificação
         return render_template('index.html', last_message=session['messages'][-1], messages=session['messages'])
@@ -55,7 +58,7 @@ def home():
     return render_template('index.html', last_message=None, messages=session['messages'])
 
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 construct_index("data")
 
 if __name__ == "__main__":
