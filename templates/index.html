@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Minha Aula Remota</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="chat-container-wrapper">
+        <div class="chat-container" id="chatContainer">
+            <div id="lastUserMessageContainer" class="chat-message">
+                {% if messages %}
+                <div id="lastUserMessageContainer" class="chat-message">
+                    <div class="user-message">
+                        <p><strong>Você:</strong> {{ last_message.user_query }}</p>
+                    </div>
+                    <div class="bot-message">
+                        <p><strong>Cronos:</strong> {{ last_message.response }}</p>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+            <div class="loading-spinner" id="loadingSpinner" style="display: none;">
+                <div class="spinner"></div>
+            </div>
+            <div id="historyContainer" style="display: none;">
+                {% for message in messages %}
+                    <div class="chat-message">
+                        <div class="user-message">
+                            <p><strong>Você:</strong> {{ message.user_query }}</p>
+                        </div>
+                        <div class="bot-message">
+                            <p><strong>Chatbot:</strong> {{ message.response }}</p>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="questionForm">
+        <form onsubmit="submitForm(event)">
+            <label for="user_query"></label>
+            <input type="text" id="user_query" name="user_query" placeholder="Digite sua pergunta..." required onclick="hideBackgroundImage()">
+            <button type="submit"><i class="fas fa-play"></i></button>
+        </form>
+    </div>
+
+    <script>
+        const chatContainer = document.getElementById("chatContainer");
+        const lastUserMessageContainer = document.getElementById("lastUserMessageContainer");
+        const historyContainer = document.getElementById("historyContainer");
+        const backgroundImage = document.querySelector(".background-image");
+
+        function scrollToBottom() {
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+
+        async function submitForm(event) {
+            event.preventDefault();
+
+            const userQuery = document.getElementById("user_query").value;
+            if (!userQuery) return;
+
+            document.getElementById("loadingSpinner").style.display = "flex";
+
+            await fetch("/", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded",
+                },
+                body: new URLSearchParams({
+                    user_query: userQuery,
+                }),
+            })
+                .then((response) => response.text())
+                .then((html) => {
+                    document.open();
+                    document.write(html);
+                    document.close();
+                })
+                .catch((error) => {
+                    console.error("Error:", error);
+                });
+        }
+
+        function showFullHistory() {
+            historyContainer.style.display = "block";
+scrollToBottom();
+}
+function hideBackgroundImage() {
+        backgroundImage.style.display = "none";
+    }
+
+    const observer = new MutationObserver(function (mutations) {
+        mutations.forEach(function (mutation) {
+            if (mutation.type === "childList") {
+                scrollToBottom();
+            }
+        });
+    });
+
+    const config = { attributes: false, childList: true, characterData: false };
+
+    observer.observe(chatContainer, config);
+
+    window.onload = function () {
+        scrollToBottom();
+    };
+</script>
+</body>
+</html>
