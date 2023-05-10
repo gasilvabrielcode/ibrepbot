@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="46c941fb-b52c-425e-859f-212a879cfd38" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/maindata.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/maindata.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -198,7 +197,7 @@
       <workItem from="1683568060852" duration="1616000" />
       <workItem from="1683573123497" duration="313000" />
       <workItem from="1683573509110" duration="1998000" />
-      <workItem from="1683717809476" duration="2331000" />
+      <workItem from="1683717809476" duration="3177000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1683568215722</created>
@@ -239,7 +238,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ibrepbot$botibrep.coverage" NAME="botibrep Coverage Results" MODIFIED="1683720153012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ibrepbot$botibrep.coverage" NAME="botibrep Coverage Results" MODIFIED="1683721135058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/botgpt$botgpt.coverage" NAME="botgpt Coverage Results" MODIFIED="1683303493921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/botibrep$Flask__main_py___1_.coverage" NAME="Flask (main.py) (1) Coverage Results" MODIFIED="1683566810139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ibrepbot$Flask__main_py___1_.coverage" NAME="Flask (main.py) (1) Coverage Results" MODIFIED="1683574399867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
