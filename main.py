@@ -58,7 +58,7 @@ def home():
     return render_template('index.html', last_message=None, messages=session['messages'])
 
 
-os.environ["OPENAI_API_KEY"] = "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"
+
 construct_index("data")
 
 if __name__ == "__main__":
