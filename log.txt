@@ -46,3 +46,19 @@ Olá, meu nome é Cronos e sou o assistente virtual da plataforma Minha Aula Remot
 Alou
 Desculpe, não entendi sua pergunta. Por favor, rephrase sua pergunta para que eu possa ajudá-lo.
 
+olá
+
+Olá! Como posso ajudar?
+
+quem é você?
+
+Eu sou o assistente virtual Cronos, desenvolvido para ajudar os colaboradores da empresa iBREP a tirarem suas dúvidas sobre a plataforma Oráculo e alguns outros pontos da empresa.
+
+você sabe o que é lgpd?
+
+Sim, eu sei o que é LGPD. A LGPD (Lei Geral de Proteção de Dados) é uma lei brasileira que estabelece um conjunto de regras para o tratamento de dados pessoais. Ela cria novos conceitos jurídicos, estabelece as condições nas quais os dados pessoais podem ser tratados, define um conjunto de direitos para os titulares dos dados, gera obrigações específicas para os controladores dos dados e cria uma série de procedimentos e normas para que haja maior cuidado com o tratamento de dados pessoais e compartilhamento com terceiros.
+
+de acordo com a lgpd eu posso divulgar fotos dos alunos do oráculo em um grupo de whatsapp?
+
+Não, de acordo com a LGPD, você não pode divulgar fotos dos alunos do Oráculo em um grupo de WhatsApp sem o consentimento dos titulares dos dados. A LGPD estabelece que os dados pessoais só podem ser tratados com o consentimento dos titulares dos dados.
+
