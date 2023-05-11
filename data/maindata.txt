@@ -6,42 +6,6 @@ o iBREP consolidou a liderança no sul do Brasil, trazendo além da possibilidad
 o iBREP é uma empresa que tem como missão formar profissionais de alta performance para o mercado imobiliário, através de uma metodologia de ensino inovadora, que utiliza tecnologia de ponta e oferece uma experiência educacional única.
 o iBREP tem sedes em Florianópolis (Rua Lauro Linhares 688, 7 andar - Trindade) em Curitiba (Rua Visconde de Nácar, 1165 - 6 andar) e em Porto Alegre (Avenida Praia de Belas, 510 - Térreo)
 o Oráculo é a plataforma onde os alunos acessam para poder fazer os conteúdos de ensino a distância
-o Oráculo é uma plataforma que foi desenvolvida pela Alfama porém agora está sobre o domínio do iBREP
-
-LGPD - Lei Geral de Proteção de Dados
-
-A LGPD cria um conjunto de novos conceitos jurídicos (e.g. "dados pessoais", "dados pessoais sensíveis"), estabelece as condições nas quais os dados pessoais podem ser tratados, define um conjunto de direitos para os titulares dos dados, gera obrigações específicas para os controladores dos dados e cria uma série de procedimentos e normas para que haja maior cuidado com o tratamento de dados pessoais e compartilhamento com terceiros.[7] A lei se aplica a toda informação relacionada a pessoa natural identificada ou que possa ser identificável e aos dados que tratem de origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, sempre que os mesmos estiverem vinculados a uma pessoa natural
-
-Quem deve se adequar à LGPD?
-Tanto as empresas como os profissionais autônomos que utilizam dados pessoais em seu negócio devem iniciar um projeto de adequação à LGPD.
-Porém, a LGPD não é aplicada as pessoas físicas que usam dados pessoais com finalidades domésticas.
-A LGPD é aplicada a qualquer pessoa física ou jurídica que realize o tratamento de dados pessoais, ou seja, que colete, armazene, utilize, compartilhe ou exclua dados pessoais.
-
-O que são dados pessoais?
-São informações de pessoas naturais vivas que, direta ou indiretamente, identificam um indivíduo.
-A informação direta é aquela que permite a imediata individualização da pessoa.
-A informação indireta é a que permite por meio da reunião de informações, chegar à identificação do sujeito.
-
-Definições estabelecidas pela LGPD[1]
-Dado pessoal: informação relacionada a pessoa natural identificada ou identificável;
-Dado pessoal sensível: dado pessoal sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural;
-Dado anonimizado: dado relativo a titular que não possa ser identificado, considerando a utilização de meios técnicos razoáveis e disponíveis na ocasião de seu tratamento;
-Banco de dados: conjunto estruturado de dados pessoais, estabelecido em um ou em vários locais, em suporte eletrônico ou físico;
-Titular: pessoa natural a quem se referem os dados pessoais que são objeto de tratamento;
-Controlador: pessoa natural ou jurídica, de direito público ou privado, a quem competem as decisões referentes ao tratamento de dados pessoais;
-Operador: pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do controlador;
-Encarregado: pessoa indicada pelo controlador e operador para atuar como canal de comunicação entre o controlador, os titulares dos dados e a Autoridade Nacional de Proteção de Dados (ANPD);
-Agentes de tratamento: o controlador e o operador;
-Tratamento: toda operação realizada com dados pessoais, como as que se referem a coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, comunicação, transferência, difusão ou extração;
-Anonimização: utilização de meios técnicos razoáveis e disponíveis no momento do tratamento, por meio dos quais um dado perde a possibilidade de associação, direta ou indireta, a um indivíduo;
-Consentimento: manifestação livre, informada e inequívoca pela qual o titular concorda com o tratamento de seus dados pessoais para uma finalidade determinada;
-Bloqueio: suspensão temporária de qualquer operação de tratamento, mediante guarda do dado pessoal ou do banco de dados;
-Eliminação: exclusão de dado ou de conjunto de dados armazenados em banco de dados, independentemente do procedimento empregado;
-Transferência internacional de dados: transferência de dados pessoais para país estrangeiro ou organismo internacional do qual o país seja membro;
-Uso compartilhado de dados: comunicação, difusão, transferência internacional, interconexão de dados pessoais ou tratamento compartilhado de bancos de dados pessoais por órgãos e entidades públicos no cumprimento de suas competências legais, ou entre esses e entes privados, reciprocamente, com autorização específica, para uma ou mais modalidades de tratamento permitidas por esses entes públicos, ou entre entes privados;
-Relatório de impacto à proteção de dados pessoais: documentação do controlador que contém a descrição dos processos de tratamento de dados pessoais que podem gerar riscos às liberdades civis e aos direitos fundamentais, bem como medidas, salvaguardas e mecanismos de mitigação de risco;
-Órgão de pesquisa: órgão ou entidade da administração pública direta ou indireta ou pessoa jurídica de direito privado sem fins lucrativos legalmente constituída sob as leis brasileiras, com sede e foro no País, que inclua em sua missão institucional ou em seu objetivo social ou estatutário a pesquisa básica ou aplicada de caráter histórico, científico, tecnológico ou estatístico; e
-Autoridade nacional: órgão da administração pública responsável por zelar, implementar e fiscalizar o cumprimento desta Lei em todo território nacional
 
 
 
