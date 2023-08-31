@@ -28,8 +28,8 @@ html, body {
 }
 
 .questionForm input:focus {
-    outline: #880093;
-    border-color: #880093;
+    outline: #AB9EDD;
+    border-color: #AB9EDD;
 }
 
 .questionForm button {
@@ -39,7 +39,7 @@ html, body {
     margin-top: 10px;
     border: none;
     color: white;
-    background-color: #880093;
+    background-color: #AB9EDD;
     transition: 0.2s;
 }
 
@@ -58,7 +58,7 @@ html, body {
     border: 1px solid #ccc;
     margin-bottom: 10px;
     position: relative;
-    background-image: url('img.gif');
+    background-image: url('img2.gif');
     background-repeat: no-repeat;
     background-position: center;
 }
